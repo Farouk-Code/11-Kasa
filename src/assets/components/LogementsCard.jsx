@@ -11,7 +11,6 @@ const LogementsCard = ({ id, title, cover }) => {
   return (
     <div className="logements-card" data-id={id} onClick={handleCardClick}>
       <div className="card-cover">
-        {console.log(cover)}
         <img src={cover} alt={title} />
         <div className="card-content">{title}</div>
       </div>
