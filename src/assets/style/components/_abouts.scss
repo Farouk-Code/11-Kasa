@@ -1,0 +1,13 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 38px 78px;
+  align-items: center;
+  min-height: 53vh;
+
+  @media screen and (max-width: 600px) {
+    padding: 19px 0;
+    gap: 20px;
+  }
+}

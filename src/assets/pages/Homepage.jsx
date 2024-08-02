@@ -11,8 +11,8 @@ const Homepage = () => {
         <Header />
         <FirstBanner />
         <LogementMenu />
-        <Footer />
       </Layout>
+      <Footer />
     </>
   );
 };
