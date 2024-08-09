@@ -57,6 +57,9 @@
         order: 0;
         flex-grow: 0;
         text-decoration: none;
+        @media screen and (max-width: 800px) {
+          width: 180px;
+        }
       }
 
       a:hover {
