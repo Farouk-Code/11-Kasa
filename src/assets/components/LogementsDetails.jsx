@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Collapse from "./Collapse";
 import Ratings from "./Ratings";
 import Tags from "./Tags";
@@ -18,7 +19,7 @@ const LogementsDetails = ({ logement }) => {
             <p>{host.name}</p>
             <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="32" cy="32" r="32" fill="#C4C4C4" />
-              <image href={host.picture} x="0" y="0" width="64" height="64" clip-path="url(#circleClip)" />
+              <image href={host.picture} x="0" y="0" width="64" height="64" clipPath="url(#circleClip)" />
               <defs>
                 <clipPath id="circleClip">
                   <circle cx="32" cy="32" r="32" />
