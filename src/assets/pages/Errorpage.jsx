@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Layout from "../components/Layout";
-import Error from "../components/error";
+import Error from "../components/Error";
 import Footer from "../components/Footer";
 
 const ErrorPage = () => {
