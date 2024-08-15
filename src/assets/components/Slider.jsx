@@ -14,11 +14,7 @@ const Slider = ({ images }) => {
 
   useEffect(() => {
     const handleKeyDown = (event) => {
-      if (event.key === "ArrowLeft") {
-        previousSlide();
-      } else {
-        nextSlide();
-      }
+      event.key === "ArrowLeft" ? previousSlide() : nextSlide();
     };
 
     window.addEventListener("keydown", handleKeyDown);
