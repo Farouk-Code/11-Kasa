@@ -21,6 +21,7 @@ const Slider = ({ images }) => {
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const shouldRenderButtons = images.length > 1;
